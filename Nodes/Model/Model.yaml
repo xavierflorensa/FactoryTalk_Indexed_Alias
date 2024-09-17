@@ -1,0 +1,65 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Objeto_UDT_Motor
+  Id: g=33494fdfc260f7f4e6434ee9ca566193
+  Supertype: BaseObjectType
+  Children:
+  - Name: Velocidad
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Estado
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Nombre
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: Objeto_UDT_Motor1
+  Id: g=751d56e21abc966d7b0bcf2629b9c00d
+  Type: Objeto_UDT_Motor
+  Children:
+  - Name: Velocidad
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 75
+  - Name: Estado
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Nombre
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor1"
+- Name: Objeto_UDT_Motor2
+  Id: g=84d7ec187cc88116d8bff10dba31bc14
+  Type: Objeto_UDT_Motor
+  Children:
+  - Name: Velocidad
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 55
+  - Name: Estado
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Nombre
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor2"
+- Name: Objeto_UDT_Motor3
+  Id: g=61b21b4edce9c6d869c78f5e69dfb21d
+  Type: Objeto_UDT_Motor
+  Children:
+  - Name: Velocidad
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 25
+  - Name: Estado
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Nombre
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor3"
